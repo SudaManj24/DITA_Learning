@@ -17,15 +17,62 @@ An XML architecture and semantic markup language specifically designed by techni
 - Indirect and direct referencing of content
 - Inheritance of attributes and metadata
 ## What does the DITA model contain?
-
+![DITA Model](dita_model.png)
 ## What does the DITA model contain?
-
+![DITA Model includes](dita_model_include.png)
 ### What does the DITA model contain?
 - A set of content units (elements)
   - Generic elements, valid in all information types
   - Information-type specific elements
   - Domain-specific elements
   - Book-specific elements
+## What are content units?
+- The core building blocks of the information types
+- Semantic labels for the smallest chunks of information in your topic
+- Containers for text, graphics, or other media
+- Architectural files specify which are required and in what order for each information type
+- Stylesheets specify how they are formatted
+# Semantic vs syntactic markup
+## Semantic
+ - Describes what each element in a document is
+ - Does not provide information on how to process those elements
+ - Is used to structure your information
+## Syntactic
+ - Describes the format for processing text and images
+ - Prepares content for presentation (web, paper, etc.)
+### Syntactic markup example
+**Example 1**
+![Syntactic markup example 1](Syntax_markup_example.png)
+**Example 2**
+![Syntactic markup example 2](Syntax_markup_example1.png)
+## Semantic labels
+| Semantic | Syntactic |
+|---|---|
+| Task title | Heading 2 |
+| Basic steps | Text box |
+| Detailed step | Heading 3 |
+|   - Instruction |  - Paragraph |
+|   - Explaination | - Paragraph |
+|   - Decision table | - Table |
+|   - Example | - Graphic |
+| Detailed step | - Graphic |
+|   Instruction | Heading 3..|
+# What does the DITA model contain?
+# Blocked elements
+- Common to all information types
+  - Paragraphs
+  - Lists
+  - Notes
+  - Tables
+  - Figures
+    
+![Blocks](Block_elements.png)
 
-
-
+- Information-type specific
+  - Task: Context, Preresquisite, Steps, Postrequisite
+  - Reference: Refsyn, Properties
+  - Troubleshooting: Condition Cause, Remedy
+    
+![Note](Note.png)
+![Terms](Terms.png)
+    
