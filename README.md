@@ -58,7 +58,7 @@ An XML architecture and semantic markup language specifically designed by techni
 | Detailed step | - Graphic |
 |   Instruction | Heading 3..|
 # What does the DITA model contain?
-# Blocked elements
+## Blocked elements
 - Common to all information types
   - Paragraphs
   - Lists
@@ -75,4 +75,13 @@ An XML architecture and semantic markup language specifically designed by techni
     
 ![Note](Note.png)
 ![Terms](Terms.png)
-    
+## Inline elements
+- Used within block elements
+- Label words or phrases semantically
+- May be related to a subject area or domain
+  - User interface
+  - Programming
+  - Software
+  - Highlighting
+
+  ![Inline elements](Inline_elements.png)
