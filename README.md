@@ -97,11 +97,13 @@ An XML architecture and semantic markup language specifically designed by techni
   - Map
   - Topic
   - Elements
+    
 **Reuse mechanisms allowing you to:**
   - Reuse entire maps or topics
   - Reuse common content units
   - Create variables text
   - Profile differences (set conditions)
+    
 **Transforms and style standards** to produce a variety of output types
   - PDF
   - HTML
@@ -109,11 +111,14 @@ An XML architecture and semantic markup language specifically designed by techni
   - ePUB
   - RTF
   - SCORM
+    
 **Constraint capabilities** that allow us to simplify authoring and enforce rules
+
 *Strict task is a constraint of General task*
 ![Constraint Task](Strict_task.png)
 
 **Specialization capabilities** that allow us to create new information types and domain-specific elements to meet our organizational and industry needs
+
 *Learning and training specialization*
 ![Learning](learning.png)
 ## What is metadata?
