@@ -109,7 +109,7 @@ o HTML
 - SCORM
 **Constraint capabilities** that allow us to simplify authoring and enforce rules
 *Strict task is a constraint of General task*
-![Constraint Task](Strick_task.png)
+![Constraint Task](Strict_task.png)
 
 **Specialization capabilities** that allow us to create new information types and domain-specific elements to meet our organizational and industry needs
 *Learning and training specialization*
