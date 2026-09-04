@@ -147,7 +147,7 @@ Subset of Dublin Core Metadata Initiative
 
 ## Structure of a DITA topic
 
-![XML and DTD declaration] (Structure_of_topic.png")
+![XML and DTD declaration](Structure_of_topic.png)
 
 - An XML document always starts with a “root” element
 ```
