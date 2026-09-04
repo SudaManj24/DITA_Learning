@@ -154,6 +154,7 @@ Subset of Dublin Core Metadata Initiative
 <concept>…</concept>
 ```
 -  All other elements are nested elements inside the root element
+
 ```
 <concept>
 
